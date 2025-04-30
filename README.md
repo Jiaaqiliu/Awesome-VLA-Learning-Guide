@@ -30,7 +30,18 @@ Welcome! This tutorial provides a systematic introduction to Vision Language Act
   - [Established Best Practices](#established-best-practices)
 - [7. Structured Learning Pathways](#7-structured-learning-pathways)
   - [Recommended Online Courses and Specializations](#recommended-online-courses-and-specializations)
-
+  - [University Lectures and Workshop Materials](#university-lectures-and-workshop-materials)
+  - [Valuable Blog Posts and Article Series](#valuable-blog-posts-and-article-series)
+  - [Reading Research Papers](#reading-research-papers)
+  - [Hands-on Projects](#hands-on-projects)
+- [8. The VLA Project Workflow: An End-to-End View](#8-the-vla-project-workflow-an-end-to-end-view)
+    - [Problem Definition & Scoping](#1-problem-definition--scoping)
+    - [Data Preparation and Management](#2-data-preparation-and-management)
+    - [Model Selection and Architecture Design](#3-model-selection-and-architecture-design)
+    - [Training and Fine-tuning](#4-training-and-fine-tuning)
+    - [Evaluation](#5-evaluation)
+    - [Deployment Considerations](#6-deployment-considerations)
+- [9. Your Next Steps in VLA](#9-your-next-steps-in-vla)
 
 ## **1. Introduction to Vision Language Action (VLA) Models**
 
