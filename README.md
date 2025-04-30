@@ -814,7 +814,7 @@ It is important to recognize that learning VLAs requires synthesizing knowledge 
 
 Developing a VLA-powered robotic system involves a multi-stage workflow, from initial conception to deployment. While specific steps may vary, a typical project lifecycle includes the following phases:
 
-### **1. Problem Definition & Scoping:**
+### **Problem Definition & Scoping:**
 
 
 
@@ -822,7 +822,7 @@ Developing a VLA-powered robotic system involves a multi-stage workflow, from in
 * **Context Specification:** Detail the operating environment (e.g., home kitchen, factory floor, simulation), the specific robot embodiment (make, model, degrees of freedom, end-effector), available sensors (cameras, proprioception, force sensors), and the expected level of autonomy.
 * **Constraint Identification:** Determine critical constraints, such as required safety levels, available computational resources (onboard vs. cloud), real-time performance requirements (control frequency), and budget limitations.
 
-### **2. Data Preparation and Management:**
+### **Data Preparation and Management:**
 
 This is often one of the most critical and time-consuming phases:
 
@@ -843,7 +843,7 @@ This is often one of the most critical and time-consuming phases:
     * Converting actions into sequences of discrete tokens .
 * **Dataset Management:** Implement efficient ways to load, batch, and potentially augment the data during training, using tools like PyTorch's DataLoader , TensorFlow Datasets (TFDS) , or the Hugging Face Datasets library.
 
-### **3. Model Selection and Architecture Design:**
+### **Model Selection and Architecture Design:**
 
 
 
@@ -852,7 +852,7 @@ This is often one of the most critical and time-consuming phases:
 * **Action Decoder Design:** Specify the architecture for the action generation component (e.g., MLP, Transformer ).
 * **Fusion Mechanism:** Decide how visual and language information will be integrated .
 
-### **4. Training and Fine-tuning:**
+### **Training and Fine-tuning:**
 
 
 
@@ -861,7 +861,7 @@ This is often one of the most critical and time-consuming phases:
 * **Optimization:** Use standard deep learning optimizers (e.g., Adam, AdamW) and tune hyperparameters like learning rate, batch size, and weight decay .
 * **Infrastructure:** Training typically requires significant GPU resources . For large models or datasets, distributed training across multiple GPUs or nodes might be necessary . Frameworks like Hugging Face Accelerate or PyTorch FSDP  can simplify this. If adapting a large pretrained model, Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA are highly recommended to reduce computational cost .
 
-### **5. Evaluation:**
+### **Evaluation:**
 
 
 
@@ -873,7 +873,7 @@ This is often one of the most critical and time-consuming phases:
     * Performance on standard benchmarks or evaluation suites .
 * **Methodology:** Evaluate policies rigorously, ideally both in simulation and on the real robot. Crucially, test generalization capabilities by evaluating on unseen objects, instructions, starting positions, or environmental conditions . Perform ablation studies to understand the contribution of different components and compare against baseline methods . Evaluation setups might involve visual matching or aggregating results across variations .
 
-### **6. Deployment Considerations:**
+### **Deployment Considerations:**
 
 Transitioning from a research prototype to a deployed system introduces practical challenges:
 
