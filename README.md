@@ -1,6 +1,36 @@
 # **Awesome-VLA-Learning-Guide**
 Welcome! This tutorial provides a systematic introduction to Vision Language Action (VLA) models, designed for beginners looking to explore this exciting intersection of computer vision, natural language processing, robotics, and artificial intelligence. We will cover the core concepts, essential prerequisites, key models and resources, and practical steps to help you get started quickly. This list will be continuously updated, and contributions are welcome!
 
+## **Table of Contents**
+
+- [1. Introduction to Vision Language Action (VLA) Models](#1-introduction-to-vision-language-action-vla-models)
+  - [What are VLAs?](#what-are-vlas)
+  - [Core Components Explained](#core-components-explained)
+  - [Key Applications](#key-applications)
+- [2. Getting Started: Essential Prerequisites](#2-getting-started-essential-prerequisites)
+  - [Fundamental Knowledge Areas](#fundamental-knowledge-areas)
+  - [Mathematical Foundations](#mathematical-foundations)
+  - [Required Programming Skills](#required-programming-skills)
+- [3. Exploring VLA Models and Frameworks](#3-exploring-vla-models-and-frameworks)
+  - [Architectural Overview](#architectural-overview)
+  - [Spotlight on Prominent / Beginner-Friendly Models](#spotlight-on-prominent--beginner-friendly-models)
+- [4. Hands-On: Finding Tutorials and Code Examples](#4-hands-on-finding-tutorials-and-code-examples)
+  - [Locating Step-by-Step Guides](#locating-step-by-step-guides)
+  - [Leveraging GitHub Repositories and Google Colab](#leveraging-github-repositories-and-google-colab)
+  - [Introduction to Relevant Simulation Environments](#introduction-to-relevant-simulation-environments)
+  - [Introduction to Relevant Frameworks](#introduction-to-relevant-frameworks)
+- [5. Essential Resources for VLA Learners](#5-essential-resources-for-vla-learners)
+  - [Key Research Papers (Introductory & Seminal)](#key-research-papers-introductory--seminal)
+  - [Standard Datasets for Training/Evaluation](#standard-datasets-for-trainingevaluation)
+  - [Finding Pre-trained VLA Models (Model Hubs)](#finding-pre-trained-vla-models-model-hubs)
+  - [Software Libraries, APIs, and Tools](#software-libraries-apis-and-tools)
+- [6. Navigating Challenges and Best Practices](#6-navigating-challenges-and-best-practices)
+  - [Common Hurdles for Novices](#common-hurdles-for-novices)
+  - [Potential Pitfalls](#potential-pitfalls)
+  - [Established Best Practices](#established-best-practices)
+- [7. Structured Learning Pathways](#7-structured-learning-pathways)
+  - [Recommended Online Courses and Specializations](#recommended-online-courses-and-specializations)
+
 
 ## **1. Introduction to Vision Language Action (VLA) Models**
 
