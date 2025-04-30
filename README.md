@@ -901,7 +901,7 @@ This workflow highlights the iterative and data-centric nature of VLA developmen
 
 ### Joining the Open Source Community:
 
-The VLA field benefits immensely from open collaboration. Consider engaging with open-source projects on GitHub, such as OpenVLA 54, LeRobot, AllenAct 36, or related VLM implementations. Even small contributions—reporting bugs, improving documentation, adding examples, or testing on new setups—can be valuable. Participating in discussions, forums, or communities focused on robotics and AI can also accelerate learning.
+The VLA field benefits immensely from open collaboration. Consider engaging with open-source projects on GitHub, such as OpenVLA, LeRobot, AllenAct, or related VLM implementations. Even small contributions—reporting bugs, improving documentation, adding examples, or testing on new setups—can be valuable. Participating in discussions, forums, or communities focused on robotics and AI can also accelerate learning.
 
 VLAs stand at the forefront of efforts to create truly intelligent machines that can perceive, understand, and act within our physical world. While challenges remain, the rapid progress, combined with growing open resources, makes this an incredibly exciting time to enter the field. We encourage you to leverage the resources outlined here, start experimenting with available code and models, and contribute to the ongoing development of embodied intelligence.
 
