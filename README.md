@@ -299,6 +299,15 @@ Several VLA models have gained prominence, though their accessibility for beginn
     * *LeRobot Library:* A newer library within the Hugging Face ecosystem specifically tailored for robotics . It aims to provide standardized tools and interfaces for training, evaluating, and deploying robotic policies, including VLAs . It hosts models like π0 (Pi-Zero)  and provides example scripts for common workflows like policy evaluation (eval.py), training (train.py), fine-tuning, and even setting up real robot teleoperation and control (control_robot.py) . LeRobot represents a significant effort to make VLA development more accessible within the familiar Hugging Face environment.
     * *Model Hub:* The central repository for sharing and accessing models and datasets within the Hugging Face ecosystem . It hosts a vast collection of VLMs  and is increasingly becoming the place to find open VLAs like OpenVLA  and SpatialVLA . It also hosts datasets relevant to VLA training and evaluation . Other platforms like PyTorch Hub  and Kaggle Models  also offer relevant models, but Hugging Face is particularly central to the open VLA community.
 
+#### Weekly additions (2026-03-23)
+
+* **mini-VLA (beginner-friendly educational baseline):** A compact (~150 LOC core) repo for understanding image-text-state fusion and diffusion action heads; useful for newcomers before moving to larger stacks.  
+  *Code:* https://github.com/keivalya/mini-vla  
+  *Learning blogs:* https://open.substack.com/pub/keivalya/p/building-vision-language-action-from  
+* **WholeBodyVLA (humanoid loco-manipulation direction):** A unified latent-action VLA line for whole-body control; good to track for advanced embodied learners interested in humanoids.  
+  *Project:* https://opendrivelab.com/WholebodyVLA  
+  *Paper:* https://arxiv.org/abs/2512.11047
+
 When comparing these options, beginners should prioritize accessibility, documentation quality, community support, and computational feasibility. OpenVLA  and the tools within the Hugging Face ecosystem, especially the LeRobot library , stand out as the most practical starting points due to their open nature, available code, pretrained models, and growing documentation. While conceptually groundbreaking, closed-source models like RT-2, PaLM-E, and Gato  are not directly usable for hands-on learning.
 
 A significant consideration is the trade-off between the cutting-edge capabilities often demonstrated by large, closed-source models  and the accessibility of open-source alternatives. While OpenVLA demonstrates impressive performance , the very largest proprietary models, trained on massive combined web and robotics datasets, may still hold an edge in complex semantic reasoning or zero-shot generalization to highly novel concepts not present in public datasets like Open X-Embodiment . This is likely due to the sheer scale of data and compute available to large industrial labs . Therefore, users starting with open models should have realistic expectations about replicating every feat shown in closed-model demonstrations.
@@ -489,6 +498,14 @@ These two platforms are indispensable for hands-on VLA learning:
     * *Use Cases:* Ideal for following tutorials, running inference with pretrained models, performing quick experiments, and even conducting lightweight model fine-tuning .
     * *Integration:* Colab notebooks can be easily saved to and loaded from GitHub repositories, facilitating sharing and version control . Users should remain cautious about executing code from untrusted sources due to potential security risks, especially when connecting to local runtimes .
 
+#### Weekly additions (2026-03-23)
+
+* **mini-VLA quickstart pipeline (GitHub scripts):** `collect_data.py` → `train.py` → `test.py` in Meta-World, giving a lightweight end-to-end practice path for first-time VLA learners.  
+  *Repo:* https://github.com/keivalya/mini-vla
+* **BridgeVLA training/eval scripts:** Clear benchmark-oriented scripts for RLBench / COLOSSEUM / GemBench, useful as a reference for structured experiment organization.  
+  *Repo:* https://github.com/BridgeVLA/BridgeVLA  
+  *Project:* https://bridgevla.github.io/
+
 The utility of Colab cannot be overstated in a field like VLAs, where training and even inference can be computationally demanding . Large models like OpenVLA (7B parameters ) and extensive datasets  typically require substantial GPU resources for training . Colab's provision of free GPU access allows learners without powerful local machines to still engage practically with the code, run tutorials, perform inference, and potentially fine-tune models, focusing on understanding concepts rather than battling infrastructure hurdles .
 
 
@@ -583,6 +600,21 @@ A variety of software tools facilitate VLA development:
 * **Simulation Environments:** SAPIEN , Habitat AI, AI2-THOR/RoboTHOR, MiniGrid, Isaac Gym, MuJoCo.
 * **Robotics Libraries:** ROS (Robot Operating System) for integrating components on real robots, PyRep (V-REP/CoppeliaSim interface), hardware-specific SDKs like the Dynamixel SDK .
 * **Data Handling Tools:** Libraries specifically designed for handling large datasets, such as RLDS , TensorFlow Datasets (TFDS) , and the Hugging Face Datasets library.
+
+#### Weekly additions (2026-03-23)
+
+* **New papers worth tracking:**
+  * **HUGE-Bench** (high-level UAV VLA benchmark with process/safety-oriented metrics).  
+    *Paper:* https://arxiv.org/abs/2603.19822
+  * **X-World** (controllable multi-camera world model for scalable VLA-style driving evaluation).  
+    *Paper:* https://arxiv.org/abs/2603.19979
+  * **The Robot's Inner Critic (CRISP)** (VLM-based critique-and-replan loop for social robot behavior refinement).  
+    *Paper:* https://arxiv.org/abs/2603.20164  
+    *Project:* https://limjiyu99.github.io/inner-critic/
+* **Fresh tooling / curated resources:**
+  * **VLA for autonomous driving resource list** (continuously updated benchmark/model map).  
+    *Repo:* https://github.com/worldbench/awesome-vla-for-ad  
+    *Project page:* https://worldbench.github.io/vla4ad
 
 Effective VLA development hinges on skillfully leveraging these pre-existing assets – pretrained encoders , language models , large-scale datasets like OXE , and increasingly, entire pretrained VLA checkpoints . Attempting to build everything from scratch is generally impractical due to the immense data and computational requirements . Fine-tuning  or modular approaches  are dominant strategies. This reliance highlights the critical importance of model hubs  and standardized dataset formats . Successfully navigating this landscape involves understanding the intricate connections between research papers introducing concepts or models , the code implementing them on GitHub , the pretrained weights available on hubs , and the datasets used for training .
 
